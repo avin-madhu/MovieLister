@@ -15,6 +15,29 @@
    
 </head>
 <body>
+
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a class="toggle-menu-items" href="index.html">Home</a>
+          <a class="toggle-menu-items" href="#">Help</a>
+        </div>
+      </div>
+      <img src="toggleMenuIconPng.png"class="toggle-button-class" id="toggle-button"style="font-size:30px;cursor:pointer" onclick="openNav()">
+      
+      <script>
+      function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+        document.getElementById("toggle-button").style.opacity="0%";
+
+      }
+      
+      function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+        document.getElementById("toggle-button").style.opacity="100%"
+      }
+      </script>
+
    <div class="container">
      <h1>Movie WatchList </h1>
     <input type="text" id="input-field" placeholder="Movie Name">
