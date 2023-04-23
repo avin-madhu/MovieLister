@@ -16,6 +16,7 @@
 </head>
 <body>
 
+
     <div id="myNav" class="overlay">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <div class="overlay-content">
@@ -41,7 +42,12 @@
       function closeNav() {
         document.getElementById("myNav").style.width = "0%";
         document.getElementById("toggle-button").style.opacity="100%"
+        document.getElementsByClassName("overlay-content").style.colour= rgba(1, 28, 15, 0.919);
       }
+
+      $(window).on('load',function(){
+        $(".preloader").fadeOut("slow")
+      })
       </script>
 
    <div class="container">
