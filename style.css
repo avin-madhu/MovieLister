@@ -1,7 +1,8 @@
 html,body{
     margin: 0px;
     padding: 0px;
-    background-image: url("bg.jpg");
+    /* background-image: url("bg.jpg"); */
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(0, 80, 9));
     background-size: 800px 1000px;
     user-select: none;
 }
