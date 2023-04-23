@@ -67,9 +67,16 @@ function clearMovieList()
 addButton.addEventListener('click',function(){
 
     const inputVal = inputF.value
-    push(MovieList, inputVal)
-    clearInputField()
-    console.log( `${inputVal} added to DataBase`);
+    if(inputVal == "")
+    {
+
+    }
+    else
+    {
+        push(MovieList, inputVal)
+        clearInputField()
+        console.log( `${inputVal} added to DataBase`);
+    }
 
 
 })
