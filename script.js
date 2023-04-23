@@ -36,7 +36,7 @@ onValue(MovieList, function(snapshot){ // runs everytime theres is an edit
 }
     }
     else{
-        movies.innerHTML = "WatchList Empty..."
+        movies.innerHTML = "Watch list is currently Empty.."
     }
 
 })
