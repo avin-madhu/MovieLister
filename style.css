@@ -6,6 +6,20 @@ html,body{
     background-size: 800px 1000px;
     user-select: none;
 }
+::-webkit-scrollbar{
+  width: 0.5rem;
+}
+::-webkit-scrollbar-track{
+  background-color: #004a05;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #008d09;
+  border-radius: 10vh;
+}
+::-webkit-scrollbar-thumb:hover{
+  background-color: #54ff5f;
+}
+
 
 
 .container{
