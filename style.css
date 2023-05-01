@@ -171,3 +171,26 @@ p{
      right: 30px;
      font-size: 60px;
    }
+
+   .footer {
+    background-color: #003d0e;
+    padding: 1px 0;
+    color: #828282;
+   
+    border-top: solid #008d09;
+  }
+  
+  .footer p {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .footer a {
+    color: #d7d7d7;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    color: #040404;
+  }
+  
