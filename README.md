@@ -5,7 +5,7 @@ Visit the site: [Link](https://movie-watch-list-avin-madhu.vercel.app/)
 
 This project aims to create a convinient way for a user to store their movie list in a simple manner.
 
-<img align='center'>![mainpage](mainpage.png) 
+<img align='center'>![mainpage](main.png) 
 
 ### Features:
 * <strong>Storing Textual Content: </strong> Can store Textual data in a clean way.
